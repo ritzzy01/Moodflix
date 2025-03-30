@@ -2,7 +2,7 @@ import React, { useState, useRef } from "react";
 import axios from "axios";
 import "./App.css";
 
-const API_KEY = "ff3ceee9e1ed50e288e25381f7a5a81f";
+const API_KEY = process.env.REACT_APP_API_KEY;
 const API_URL = "https://api.themoviedb.org/3";
 
 function App() {
